@@ -17,3 +17,4 @@
 # ebpf binaries
 *.o
 
+.idea
