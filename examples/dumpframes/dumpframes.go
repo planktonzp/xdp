@@ -18,10 +18,10 @@ import (
 	"log"
 	"net"
 
-	"github.com/asavie/xdp"
-	"github.com/asavie/xdp/examples/dumpframes/ebpf"
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
+	"github.com/planktonzp/xdp"
+	"github.com/planktonzp/xdp/examples/dumpframes/ebpf"
 )
 
 func main() {

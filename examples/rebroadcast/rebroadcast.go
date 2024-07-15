@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/asavie/xdp"
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
+	"github.com/planktonzp/xdp"
 )
 
 func main() {
