@@ -713,3 +713,15 @@ type Stats struct {
 	// submitted into Fill or Tx ring queues.
 	KernelStats unix.XDPStatistics
 }
+
+type umemRing struct {
+	Producer *uint32
+	Consumer *uint32
+	Descs    []uint64
+}
+
+type rxTxRing struct {
+	Producer *uint32
+	Consumer *uint32
+	Descs    []Desc
+}

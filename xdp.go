@@ -31,15 +31,3 @@ var DefaultSocketOptions = SocketOptions{
 	RxRingNumDescs:         64,
 	TxRingNumDescs:         64,
 }
-
-type umemRing struct {
-	Producer *uint32
-	Consumer *uint32
-	Descs    []uint64
-}
-
-type rxTxRing struct {
-	Producer *uint32
-	Consumer *uint32
-	Descs    []Desc
-}
